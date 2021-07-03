@@ -1,6 +1,6 @@
 # Portfolio
 
-# Hi,
-# Wanna know me?
-# Have a look at my portfolio.
-# Here you go - 
+Hi,
+Wanna know me?
+Have a look at my portfolio.
+Here you go - 🔗https://sanchi231.github.io/portfolio/
