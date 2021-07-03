@@ -1,0 +1,209 @@
+*{
+    /* removes the default margins */
+    margin: 0;
+}
+
+body {
+    color: #40514E;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    /* font-family: serif; */
+    font-weight: 600;
+    font-size: medium;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    /* 100% = 16px so 90% is 90/16=562.5% */
+    /* 1em = 16px = 100% */
+    font-size: 5.625rem; 
+    /* rem are used to ignore the inherit feature from paren element  */
+    /*we use percentages or em to make the font size dynamic i.e. it changes accordingly when the user changes font size on the system.*/
+    /* em or percentages gets inherited with parent element (here body) */
+}
+
+h2 {
+    color: #66BFBF;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem; /*equals 40px*/
+}
+
+h3 {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: sans-serif;
+    color: #11999E;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.top-container {
+  
+    background-color: #E4F9F5;  
+    padding: 20px;
+    position: relative;
+    padding-top: 100px;
+    /* BORDER  */
+    /* border: black solid 10px; */
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile img{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    width: 15%;
+}
+
+.profile p{
+    width: 30%;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+
+/* display types */
+/* INLINE -- CONTINUES ON THE SAME LINE
+BLOCK -- TAKES THE WHOLE WIDTH OF THE PAGE
+INLINE-BLOCK -- DISPLAYS ADJUSTED WIDTH SIZE AS PROVIDED
+NONE -- DISPLAYS NOTHING */
+
+/* POSITIONING
+STATIC
+RELATIVE 
+ABSOLUTE
+FIXED  */ 
+
+hr {
+    border: dotted 6px #EAF6F6;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+.skill-row {
+    width: 50%; 
+    margin: 100px auto; 
+    text-align: left;
+    line-height: 2;
+}
+
+/* .skill-row p{
+    line-height: 2;
+} */
+
+.skills-img1{
+    width: 25%;
+    height: auto;
+    border-radius: 100%;
+    /* wrapping the image to the left of the text */
+    float: left;
+    margin-right: 30px;
+}
+
+.skills-img2 {
+    width: 25%;
+    height: auto;
+    border-radius: 100%;
+    /* wrapping the iamge to the right of the text */
+    float: right;
+    margin-left: 30px;
+}
+
+/* if we want only the heading to be wrapped to the right of the image and not the paragraph then  */
+/* .para1 {
+    clear: left;
+}
+
+.para2 {
+    clear: right;
+} */
+
+.contact-me {
+    text-align: center;
+}
+
+.contact-me h3{
+    padding: 30px 0;
+}
+
+.contact-me p{
+    width: 40%;
+    margin: 40px auto 60px;
+    line-height: 2;
+}
+
+.btn {
+    background: #66BFBF;
+    /* background-image: -webkit-linear-gradient(top, #52F7F7, #66BFBF);
+    background-image: -moz-linear-gradient(top, #52F7F7, #66BFBF);
+    background-image: -ms-linear-gradient(top, #52F7F7, #66BFBF);
+    background-image: -o-linear-gradient(top, #52F7F7, #66BFBF);
+    background-image: -webkit-gradient(to bottom, #52F7F7, #66BFBF); */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 15px;
+    text-shadow: 0 0 20px #000000;
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 30px auto 50px auto;
+ }
+ 
+ .btn:hover {
+    background: #66BFBF;
+    border: solid #66BFBF 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+ .bottom-container {
+     background-color: #66BFBF;
+     padding: 20px 0;
+     color: #EAF6F6;
+     letter-spacing: 0.08em;
+     font-weight: normal;
+     font-size: 0.75rem;
+ }
+
+ 
+
+a {
+     font-weight: bold;
+     padding-right: 20px;
+     text-decoration: none;
+     font-family: sans-serif;
+     color: #11999E;
+     
+ }
+ 
+ a:hover {
+     color: #EAF6F6;
+ }
+
